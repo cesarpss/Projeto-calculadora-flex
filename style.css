@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(51, 51, 51);
+}
+
+h1{
+    color: white;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.ge{
+    width: 85px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 3px solid rgb(29, 2, 101);
+}
+
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(26, 2, 93);
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.button:hover{
+    background-color: rgb(3, 3, 128);
+}
